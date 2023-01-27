@@ -1,0 +1,98 @@
+body {
+  background-color: #333333;
+}
+
+
+/* Add dark animated background */
+.dark-animated-background {
+  background-color: #333333;
+  animation: animate-background 20s linear infinite;
+}
+
+@keyframes animate-background {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Add styling for boxes */
+.row {
+  display: flex;
+}
+
+.box {
+  width: 25%;
+  height: 300px;
+  text-align: center;
+}
+
+.youtube {
+  background-color: red;
+  
+}
+
+.instagram {
+  background-color: #ff69b4;
+}
+
+.spotify {
+  background-color: green;
+}
+
+.che
+#dashboard {
+  background: linear-gradient(to bottom, #000000, #333333);
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 25%;
+  text-align: center;
+}
+
+.youtube {
+  background-color: #ff0000;
+  
+}
+
+.instagram {
+  background-color: #ff69b4;
+}
+
+.spotify {
+  background-color: #00ff00;
+}
+
+.chess {
+  background-color: #006400;
+}
+
+.amazon {
+  background-color: #ffa500;
+}
+
+.tiktok {
+  background-color: #ffffff;
+}
+
+.twitter {
+  background-color: #0000ff;
+}
+
+.stockx {
+  background-color: #90ee90;
+}
+#app-title {
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  margin-top: 10px;
+  
+  
+  
+}
